@@ -607,7 +607,8 @@
 
     .scratch-wrap {
       position: relative;
-      width: 300px;
+      width: 100%;
+      max-width: 300px;
       height: 180px;
       margin: 20px auto 0;
       border-radius: 16px;
@@ -638,6 +639,8 @@
     #scratchCanvas {
       position: absolute;
       top: 0; left: 0;
+      width: 100% !important;
+      height: 100% !important;
       border-radius: 16px;
       z-index: 1;
       cursor: crosshair;
