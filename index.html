@@ -572,6 +572,19 @@
       cursor: pointer;
     }
 
+    @media (max-width: 600px) {
+      .candle-emoji {
+        font-size: 3rem;
+      }
+      #page3 .wish-title {
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+      }
+      #page3 .wish-box {
+        padding: 25px 20px;
+      }
+    }
+
     .candle-emoji.blown {
       filter: grayscale(1);
       animation: none;
@@ -586,6 +599,10 @@
       color: #f5ddd0;
       font-size: 1rem;
       margin-top: 10px;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      padding: 0 10px;
+      text-align: center;
     }
 
     .scratch-wrap {
