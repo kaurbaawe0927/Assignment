@@ -69,6 +69,14 @@
       min-height: 100vh;
       position: relative;
       z-index: 1;
+      padding-top: 0;
+    }
+
+    @media (max-width: 600px) {
+      #door-screen {
+        justify-content: flex-start;
+        padding-top: 40px;
+      }
     }
 
     #door-screen .knock-text {
@@ -785,8 +793,7 @@
           <span class="candle-emoji" id="candle">🕯️</span>
         </div>
         <p class="wish-text" id="wish-text">Candle blow kar ke wish kr 😊</p>
-        <button class="btn" id="wish-btn" onclick="blowCandle()" style="margin-top: 35px;">Wish kar ✨</button>
-        <p style="font-size:0.75rem; opacity:0.5; color:#f9c9a8; margin-top:8px;">tap here</p>
+        <button class="btn" id="wish-btn" onclick="blowCandle()" style="margin-top: 35px;">Click here to wish ✨</button>
         <div id="scratch-section" style="display:none; margin-top:30px;">
           <p class="wish-text" style="margin-bottom:10px;">Aur ik surprise bhi hai ✨ Scratch kar!</p>
           <div class="scratch-wrap">
